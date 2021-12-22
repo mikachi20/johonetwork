@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <div><rakutenAPI /></div>
+    <div><home /></div>
   </div>
 </template>
 
 <script>
-import rakutenAPI from "@/components/HelloWorld.vue"
+import home from "@/components/home.vue"
 export default {
   name: "App",
   components: {
-    rakutenAPI,
+    home,
   },
 }
 </script>
